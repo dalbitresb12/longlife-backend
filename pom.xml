@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.dalbitresb</groupId>
-    <artifactId>springstarter</artifactId>
+    <artifactId>longlife</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springstarter</name>
-    <description>springstarter</description>
+    <name>longlife</name>
+    <description>longlife</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -60,6 +60,26 @@
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.modelmapper</groupId>
+            <artifactId>modelmapper</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.modelmapper.extensions</groupId>
+            <artifactId>modelmapper-spring</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+            <version>1.6.9</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-data-rest</artifactId>
+            <version>1.6.9</version>
         </dependency>
     </dependencies>
 
