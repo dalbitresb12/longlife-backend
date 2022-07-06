@@ -1,10 +1,10 @@
-package com.dalbitresb.springstarter;
+package com.dalbitresb.longlife;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringstarterApplicationTests {
+class LongLifeApplicationTests {
 
   @Test
   void contextLoads() {
